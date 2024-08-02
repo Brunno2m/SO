@@ -1,0 +1,19 @@
+Algorítmos de escalonamento
+
+FCFs(FIFO) algorítimo básico.
+    processos sao criados e entra na fila. ele só sai se terminar ou entrar em estado de espera. quando o processo termina, inicia outro processo em forma de fila
+    -processos sao iniciados de acordo com a fila, independente do tempo.
+
+SJF - Entrega melhor resultado em termos de tempo
+    processos organizados de acordo com o tempo. no caso inicia com processo que tenha menor tempo e vai ate o processo com maior tempo.
+    *só existe na teoria. não tem como implementar porque não tem como prever os processos para poder ordenar.
+    **serve como parametro teorico para o que é ideal.
+
+Circular - alterna rapidamente entre processos para atender de maneira justa
+    Tenta ser o mais justo possível. possui tempo de cpu igual para todos os processos.
+    para o funcionamento é necessario determinar um tempo fixo chamado de "quantum".
+    garante que todos os processos funcionem sem estarem travados.
+
+*multiplas filas(internamente)
+
+*****tempo de turnaround(tempo de um processo do início ao fim)******
