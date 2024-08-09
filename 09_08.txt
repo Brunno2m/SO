@@ -1,2 +1,33 @@
 ***Swapping e Alocação de memória***
 
+Swapping
+    retira o processo de memoria ram e passa para o hd para dar espaço para 
+    outro processo.
+
+    o processo não pode ser executado se estiver no disco. somente se estriver na memóris
+    ram.
+
+    swap in
+        quando carrega o processo pra memoria
+    swap out
+        carrega todos os processos que couberem na memória
+
+    o problema da fragmentação gera desperdício de memória
+    uma estratégia é a compactação da memoria.
+
+
+Compactação de memória
+
+Alocação dinâmica
+    o processo precisa de mais espaco do que precisa inicialmente.
+    stack(pilha) uma estrutura de dados.
+
+Swap
+    é uma estratégia válida, mas sofre com a lentidção secundária
+
+Memória virtual
+    solução é a paginação virtual.
+        carrega somente as páginas necessarias naquele momento para cada programa
+    
+paginação	
+    
