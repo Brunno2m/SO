@@ -1,0 +1,36 @@
+Aula Armazenamento não-volátil e sistemas de arquivos.
+
+.
+.
+.
+.
+
+
+**Layout do sistema de Arquivos.
+para ler o diretório é necessário informar o diretório onde está sendo ocupado. posteriormente tem que determinar onde tem espa~ço livre.
+
+** implementação de arquivos
+    Alocação contigua(começar a gravar o arquivo e continuar contínuo)
+    Alocação em listas ligadas(Grava em pedacos separados onde cada arquivo aponta a sequencia do outro)
+
+    -Alocação Contígua:
+        implementação fácil. Problema com fragmentação. sendo necessária a compactacao para inclusao de novos arquivos.
+    -Alocação em listas ligadas:
+        Facilidade na desocupação de fragmentos. precisa percorrer todos os fragmentos para obter uma informação do arqquivo.
+    -Alocação em listas ligadas usando tabela em memória
+        Resolve os problemas de desperdício das listas ligadas e resolve o acesso a algum bloco aleatório
+    -o-Nodes
+        estrutura de dados que armazena dados, permissoes e enderecos dos blocos
+        não precisa ter na memória a tabela de todos os arquivos
+        acessa somente a tabela de arquivos em uso.
+        estrutura ext4
+** implementação de diretórios
+    Pode armazenar as informações do arquivo
+** Confiabilidade
+    sistemas de arquivos com journaling
+    gravam informações(log) do que será feito 
+    transações atõmicas(não pode ser separado)
+** Checagem de disco
+    
+    
+        
