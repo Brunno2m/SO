@@ -3,5 +3,7 @@
 sistemas DISTRIBUÍDOS fazem o mesmo papel de um SO, mas com varios 
 hardwares envoltos na rede.
 
-####### CONCEITO
+######## CONCEITO
+
+######## Aplicações
 
