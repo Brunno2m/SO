@@ -1,0 +1,32 @@
+##### A partir da aula 6 e 7
+    escalonamento e conceito 
+o so vai ter uma fila de processos e quanto tempo cada um utiliza em tempo.
+o so tenta ser justo e tenta otimizar para que todos os processos terminem o mais rápido possível(turnaround)
+FIFO
+    processo na ordem 
+    se o primeiro processo precisa de 5 segundos e o segundo precisa de 4 segundos, na fifo, o primeiro processo leva 5 segundos e o segundo
+    processo leva 9 segundos, pois ele aguarda o primeiro processo terminar para ele comecar e assim por diante.
+
+SJF (Menor trabalho primeiro)
+    como a sigla diz, os processos são ordenados pelo menor tempo até o maior tempo.
+    com isso se torna mais rápido para ser processado.
+RR(algorítmo circular)
+
+#### Aula 8 e 9 (slide 8)
+    Swapping e alocação de memória
+    necessidade de otimização de memória.
+    o so otimiza processos para melhor resposta. 
+        carrega tudo o que poder na memória mais rápida. ao encher essa memória, utiliza-se a memória secundária.
+        no termo de aplicação web, existem servicos de armazenamentos.
+            na Amazon, por exemplo existe o S3, que utiliza armazenamento rápido e lento. dando prioridade na memória rapida o que é mais utilizado.
+    ****Swapping, paginacao e memória virtual****
+
+#### Aula 10
+
+Assunto prova
+    - escalonamento
+        entender os algorítmos e comparar
+    - gerência de memoria
+        memória virtual, Swapping e paginação
+    - armazenamento
+    - Introdução a sistemas distribuidos
